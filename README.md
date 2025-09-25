@@ -2,8 +2,7 @@
 
 **Who's That??** is a fun, interactive word-guessing game inspired by the classic Hangman — but with a Pokémon twist! Using the [PokéAPI](https://pokeapi.co/), this game randomly selects a Pokémon, hides its name, and challenges the player to guess it one letter at a time.
 
-Try it here: *(shrylb.github.io/Whos-That-Pokemon/)*
-
+**Try it live:** [shrylb.github.io/Whos-That-Pokemon](https://shrylb.github.io/Whos-That-Pokemon/)
 ---
 
 ## Gameplay
