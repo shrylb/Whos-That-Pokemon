@@ -1,0 +1,93 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.066), rgba(0, 0, 0, 0.126)), url('./assets/bg3.png');
+  background-size: cover;
+  color: #fff;
+  font-family: 'Press Start 2P', 'Consolas', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.game-container {
+  max-width: 400px;
+  margin: 40px auto;
+  background: rgba(17, 17, 17, 0.708);
+  border: 4px solid #1f1f1f;
+  border-radius: 16px;
+  box-shadow: 0 0 32px #000a;
+  padding: 24px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+#poke-canvas {
+  border: 2px solid #fff;
+  background: #222;
+  margin-bottom: 16px;
+  image-rendering: pixelated;
+}
+
+#hint {
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+  color: #bada55;
+}
+
+#word {
+  letter-spacing: 4px;
+  font-size: 1.3rem;
+  margin: 8px 0 16px 0;
+}
+
+#letters {
+  margin: 12px 0;
+}
+
+.letter-btn {
+  display: inline-block;
+  margin: 2px;
+  padding: 6px 10px;
+  border: none;
+  background: #5e5e5e;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.letter-btn[disabled] {
+  background: #222;
+  color: #666;
+  cursor: not-allowed;
+}
+
+#status {
+  margin: 12px 0;
+  font-size: 1rem;
+  min-height: 28px;
+}
+
+#restart {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-family: inherit;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background: #bada55;
+  color: #222;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#restart:hover {
+  background: #fff966;
+}
